@@ -1,0 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.setting {
+  display: flex;
+  justify-content: flex-end;
+}
+
+body {
+  width: 80%;
+  margin: 0 auto;
+}
