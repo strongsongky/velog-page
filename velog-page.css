@@ -19,6 +19,15 @@ body {
   margin-left: auto;
 }
 
+.header {
+  display: flex;
+}
+
+.menu {
+  display: flex;
+  margin-left: auto;
+  }
+
 body {
   width: 83%;
   margin: 0 auto;
