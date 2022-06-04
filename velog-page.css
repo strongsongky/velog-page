@@ -1,15 +1,42 @@
+body {
+  background-color: #F9F9FA;
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-.setting {
+.top {
   display: flex;
-  justify-content: flex-end;
+  position: relative;
+  padding: 15px;
+}
+
+.nav {
+  display: flex;
+  margin-left: auto;
 }
 
 body {
-  width: 80%;
+  width: 83%;
   margin: 0 auto;
+}
+
+.category {
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  margin: 24 0 0;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+}
+
+.list > img {
+  width: 320px;
+  height: 170px;
 }
