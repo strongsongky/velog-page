@@ -1,22 +1,55 @@
-body {
-  background-color: #F9F9FA;
-}
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-.top {
-  display: flex;
-  position: relative;
-  padding: 15px;
-}
-
 .nav {
   display: flex;
-  margin-left: auto;
+  justify-content: space-between;
+  height: 64px;
+  margin-left: 16px;
+  margin-right: 16px;
+  
+}
+.nav .log-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav .log-box .logo {
+  font-size: 20px;
+}
+
+
+.nav .nav-items {
+  display: flex;
+  align-items: center;
+  
+}
+
+.nav .nav-items .nav-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  
+  
+}
+
+.nav .nav-items .login-btn {
+  height: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 16px;
+  background-color: #212529;
+  color: #FFFFFF;
+  font-weight: 500;
+  
+}
+.nav .nav-items .login-btn:hover {
+background-color: #343A40;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
 }
 
 .header {
@@ -28,10 +61,6 @@ body {
   margin-left: auto;
   }
 
-body {
-  width: 83%;
-  margin: 0 auto;
-}
 
 .category {
   font-size: 20px;

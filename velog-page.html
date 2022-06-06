@@ -1,56 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style/velog-page.css">
-  <title>velog</title>
-</head>
-<body>
-  <div class="top">
-    <h1><a href=""><img src="asset/image/logo.png" alt="logo"/></a></h1>
-    <h2 class="nav">
-      <div class="nav-item"><a href=""><img src="asset/image/밝기모드.png" alt="밝기모드"></a></div>
-      <div class="nav-item"><a href=""><img src="asset/image/검색.png" alt="검색"></a></div>
-      <div class="nav-item"><a href=""><img src="asset/image/로그인.png" alt="로그인"></a></div>
-    </h2>
-  </div>
-  <div class="header">
-    <div class="category">
-      <div class="트렌딩"><a href=""><img src="asset/image/트렌딩.png" alt="아이콘"></a>트렌딩</div>
-      <div class="최신"><a href=""><img src="asset/image/최신.png" alt="아이콘"></a>최신</div>
-      <button type="button" class="dropdown">이번주</button>
-    </div>
-    <div class="menu">
-      <a href=""><img src="asset/image/메뉴.png" alt="아이콘"></a>
-    </div>
-  </div>
-  <div class="prices">
-    <div class="price-item">
-      <div class="content"><a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx3DEXE5feCkrcL_fcapWje13eBKl9G1skfg&usqp=CAU" alt="content"></a></div>
-      <div class="price-item-title">제목입니다</div>
-      <div class="price-item-detail">내용입니다</div>
-      <div class="price-item-writer">작성자입니다</div>
-    </div>
-    <div class="price-item">
-      <div class="content"><a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF9G-UFAbO7tFzELzAxyOETOskVhZv88S7wg&usqp=CAU" alt="content"></a></div>
-      <div class="price-item-title">제목입니다</div>
-      <div class="price-item-detail">내용입니다</div>
-      <div class="price-item-writer">작성자입니다</div>
-    </div>
-    <div class="price-item">
-      <div class="content"><a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXOdAkdoufQ7HOOqdfVMNOzs7Z09i3Wn_Hsg&usqp=CAU" alt="content"></a></div>
-      <div class="price-item-title">제목입니다</div>
-      <div class="price-item-detail">내용입니다</div>
-      <div class="price-item-writer">작성자입니다</div>
-    </div>
-    <div class="price-item">
-      <div class="content"><a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJkXTWf03XTqrIazPUc4xR1rawtsnQXeQwKA&usqp=CAU" alt="content"></a></div>
-      <div class="price-item-title">제목입니다</div>
-      <div class="price-item-detail">내용입니다</div>
-      <div class="price-item-writer">작성자입니다</div>
-    </div>
-  </div>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style/velog-page.css" />
+		<link rel="stylesheet" href="style/reset.css" />
+		<title>velog</title>
+	</head>
+	<body>
+		<div class="nav">
+			<div class="log-box">
+				<a class="logo" href="/">Velog</a>
+			</div>
+			<div class="nav-items">
+				<button class="nav-item">
+					<img class="icon" src="asset/image/white-mode.svg" alt="white-mode-btn"/>
+				</button>
+				<a href="#" style="margin-right: 8px;" class="nav-item">
+					<ion-icon class="icon" name="search-outline"></ion-icon>
+				</a>
+				<button class="login-btn">
+					로그인
+				</button>
+			</div>
+		</div>
+		<div class="header">
+			<div class="category">
+				<div class="트렌딩">
+					<a href=""><img src="asset/image/트렌딩.png" alt="아이콘" /></a>트렌딩
+				</div>
+				<div class="최신">
+					<a href=""><img src="asset/image/최신.png" alt="아이콘" /></a>최신
+				</div>
+				<button type="button" class="dropdown">이번주</button>
+			</div>
+			<div class="menu">
+				<a href=""><img src="asset/image/메뉴.png" alt="아이콘" /></a>
+			</div>
+		</div>
+		<div class="prices">
+			<div class="price-item">
+				<div class="content">
+					<a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx3DEXE5feCkrcL_fcapWje13eBKl9G1skfg&usqp=CAU" alt="content" /></a>
+				</div>
+				<div class="price-item-title">제목입니다</div>
+				<div class="price-item-detail">내용입니다</div>
+				<div class="price-item-writer">작성자입니다</div>
+			</div>
+			<div class="price-item">
+				<div class="content">
+					<a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF9G-UFAbO7tFzELzAxyOETOskVhZv88S7wg&usqp=CAU" alt="content" /></a>
+				</div>
+				<div class="price-item-title">제목입니다</div>
+				<div class="price-item-detail">내용입니다</div>
+				<div class="price-item-writer">작성자입니다</div>
+			</div>
+			<div class="price-item">
+				<div class="content">
+					<a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXOdAkdoufQ7HOOqdfVMNOzs7Z09i3Wn_Hsg&usqp=CAU" alt="content" /></a>
+				</div>
+				<div class="price-item-title">제목입니다</div>
+				<div class="price-item-detail">내용입니다</div>
+				<div class="price-item-writer">작성자입니다</div>
+			</div>
+			<div class="price-item">
+				<div class="content">
+					<a href=""><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJkXTWf03XTqrIazPUc4xR1rawtsnQXeQwKA&usqp=CAU" alt="content" /></a>
+				</div>
+				<div class="price-item-title">제목입니다</div>
+				<div class="price-item-detail">내용입니다</div>
+				<div class="price-item-writer">작성자입니다</div>
+			</div>
+		</div>
+		<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+		<script src="velog-page.js"></script>
+	</body>
 </html>
