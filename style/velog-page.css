@@ -4,8 +4,8 @@
   height: 64px;
   margin-left: 16px;
   margin-right: 16px;
-  
 }
+
 .nav .log-box {
   display: flex;
   align-items: center;
@@ -16,11 +16,9 @@
   font-size: 20px;
 }
 
-
 .nav .nav-items {
   display: flex;
   align-items: center;
-  
 }
 
 .nav .nav-items .nav-item {
@@ -29,8 +27,6 @@
   justify-content: center;
   width: 40px;
   height: 40px;
-  
-  
 }
 
 .nav .nav-items .login-btn {
@@ -41,10 +37,10 @@
   background-color: #212529;
   color: #FFFFFF;
   font-weight: 500;
-  
 }
+
 .nav .nav-items .login-btn:hover {
-background-color: #343A40;
+  background-color: #343A40;
 }
 
 .icon {
@@ -54,28 +50,18 @@ background-color: #343A40;
 
 .header {
   display: flex;
-}
-
-.menu {
-  display: flex;
-  margin-left: auto;
-  }
-
-
-.category {
-  font-size: 20px;
-  font-weight: bold;
-  display: flex;
-  margin: 24 0 0;
+  justify-content: space-between;
+  margin-top: 1.5rem;
   align-items: center;
 }
 
-.list {
+.header-item {
   display: flex;
 }
 
 .prices {
   display: flex;
+  justify-content: space-between;
 }
 
 .price-item {
