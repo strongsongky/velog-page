@@ -2,8 +2,9 @@
   display: flex;
   justify-content: space-between;
   height: 64px;
-  margin-left: 16px;
-  margin-right: 16px;
+  margin-left: 115.5px;
+  margin-right: 115.5px;
+  width: 1024px
 }
 
 .nav .log-box {
@@ -57,16 +58,21 @@
 
 .header-item {
   display: flex;
+  align-items: center;
+  width: 320;
+  height: 48;
 }
 
 .prices {
   display: flex;
   justify-content: space-between;
+  margin: -1rem;
+  flex-wrap: wrap;
 }
 
 .price-item {
   width: 300px;
-  height: 300px;
+  height: 377px;
   border: 1px solid black;
   margin: 20px;
   border-radius: 4px;
@@ -86,4 +92,17 @@
 .price-item-writer {
   font-size: 0.9rem;
   padding: 10px;
+}
+
+.bodypart {
+  margin-left: 115.5px;
+  margin-right: 115.5px;
+  width: 1024px
+}
+
+.bodypart .header .dropdown {
+  height: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
+  background-color: #F8F9FA;
 }
