@@ -1,3 +1,7 @@
+body {
+  background-color: #F6F7F9;
+}
+
 .nav {
   display: flex;
   justify-content: space-between;
@@ -28,6 +32,7 @@
   justify-content: center;
   width: 40px;
   height: 40px;
+  margin-right: 0.25rem;
 }
 
 .nav .nav-items .login-btn {
@@ -40,13 +45,26 @@
   font-weight: 500;
 }
 
+#search {
+  width: 18px;
+  height: 18px;
+}
+
 .nav .nav-items .login-btn:hover {
   background-color: #343A40;
 }
 
-.icon {
+.nav-item .icon {
   width: 24px;
   height: 24px;
+}
+
+
+
+.header-nav .icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 0.5rem;
 }
 
 .header {
@@ -54,6 +72,9 @@
   justify-content: space-between;
   margin-top: 1.5rem;
   align-items: center;
+  box-sizing: border-box;
+  width: 1024px;
+  height: 48px;
 }
 
 .header-item {
@@ -65,33 +86,42 @@
 
 .prices {
   display: flex;
-  justify-content: space-between;
+  margin-top: 2rem;
+  box-sizing: border-box;
+}
+
+.prices .price-items {
+  display: flex;
   margin: -1rem;
   flex-wrap: wrap;
 }
 
 .price-item {
-  width: 300px;
+  width: 20rem;
   height: 377px;
-  border: 1px solid black;
-  margin: 20px;
+  background: white;
   border-radius: 4px;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgb(0 0 0 / 4%) 0px 4px 16px 0px
 }
 
 .price-item-title {
-  font-size: 1.1rem;
-  font-weight: bold;
-  padding: 10px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  height: 165px;
 }
 
-.price-item-detail {
-  font-size: 0.9rem;
-  padding: 10px;
-}
-
-.price-item-writer {
-  font-size: 0.9rem;
-  padding: 10px;
+.writer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.625rem 1rem;
+  border-top: 1px solid #F1F3F5;;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  align-items: center;
 }
 
 .bodypart {
@@ -100,9 +130,49 @@
   width: 1024px
 }
 
+.header .header-nav {
+  display: flex;
+  position: relative;
+  width: 14rem;
+  height: 48px;
+}
+
+.트렌딩, .최신 {
+  width: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.125rem;
+  text-decoration: none;
+  height: 3rem;
+}
+
 .bodypart .header .dropdown {
   height: 32px;
   padding-left: 16px;
   padding-right: 16px;
-  background-color: #F8F9FA;
+}
+
+.buttonbox {
+  height: 2rem;
+  width: 6rem;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-weight: 450;
+  font-size: 0.875rem;
+  background-color: white;
+}
+
+.dropdown .icon {
+  height: 6px;
+  width: 3px;
+}
+
+.contentimage img {
+  width: 320px;
+  height: 167px;
 }
