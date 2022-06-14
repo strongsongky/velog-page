@@ -34,14 +34,31 @@
 							<ion-icon class="icon" name="time-outline"></ion-icon><p style="float:right;">최신</p>
 						</button>
 					</div>
-					<button class="buttonbox">
-						<p>이번 주</p>
-						<ion-icon class="icon" name="caret-down-outline"></ion-icon>
-					</button>
+					<div class="dropdown">
+						<button class="dropdown-button">
+							<p>이번 주</p>
+							<ion-icon class="icon" name="caret-down-outline"></ion-icon>
+						</button>
+						<div class="dropdown-content">
+							<div class="dropdown-list">오늘</div>
+							<div class="dropdown-list">이번 주</div>
+							<div class="dropdown-list">이번 달</div>
+							<div class="dropdown-list">올해</div>
+						</div>
+					</div>
 				</div>
-				<button class="메뉴">
-					<ion-icon class="icon" name="ellipsis-vertical-outline"></ion-icon>
-				</button>
+				<div class="dropdown">
+          <button class="menu-button">
+						<ion-icon class="icon" name="ellipsis-vertical-outline"></ion-icon>
+					</button>
+					<div class="dropdown-content">
+						<div class="dropdown-list">공지사항</div>
+						<div class="dropdown-list">태그 목록</div>
+						<div class="dropdown-list">서비스 정책</div>
+						<div class="dropdown-list">slack</div>
+						<div class="dropdown-list">문의</div>
+					</div>
+				</div>
 			</div>
 			<div class="prices">
 				<div class="price-items">

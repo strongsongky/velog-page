@@ -59,8 +59,6 @@ body {
   height: 24px;
 }
 
-
-
 .header-nav .icon {
   width: 24px;
   height: 24px;
@@ -107,6 +105,10 @@ body {
   box-shadow: rgb(0 0 0 / 4%) 0px 4px 16px 0px
 }
 
+.price-items :hover {
+  transform :translate(0,-10px);
+}
+
 .price-item-title {
   padding: 1rem;
   display: flex;
@@ -143,17 +145,10 @@ body {
   align-items: center;
   justify-content: center;
   font-size: 1.125rem;
-  text-decoration: none;
   height: 3rem;
 }
 
-.bodypart .header .dropdown {
-  height: 32px;
-  padding-left: 16px;
-  padding-right: 16px;
-}
-
-.buttonbox {
+.dropdown-button {
   height: 2rem;
   width: 6rem;
   border-radius: 4px;
@@ -167,12 +162,47 @@ body {
   background-color: white;
 }
 
-.dropdown .icon {
-  height: 6px;
-  width: 3px;
-}
-
 .contentimage img {
   width: 320px;
   height: 167px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  right: 0px;
+  top: 100%;
+  z-index: 5;
+  margin-top: 0.5rem;
+  width: 12rem;
+  box-shadow: rgb(0 0 0 / 10%) 0px 0px 8px 
+}
+
+.dropdown-content div:hover {
+  background-color: #F8F9FA;
+}
+
+.dropdown:active .dropdown-content {
+  display: block;
+}
+
+.dropdown-content .dropdown-list {
+  font-weight: 600;
+  font-size: 0.875rem;
+  padding: 0.75rem 1rem;
+  border-top: 1px solid #F1F3F5;
+}
+
+.menu-button {
+  align-items: center;
+}
+
+.트렌딩:hover {
+  text-decoration: underline;
 }
