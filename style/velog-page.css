@@ -54,6 +54,7 @@ body {
   background-color: #343A40;
 }
 
+
 .nav-item .icon {
   width: 24px;
   height: 24px;
@@ -78,8 +79,8 @@ body {
 .header-item {
   display: flex;
   align-items: center;
-  width: 320;
-  height: 48;
+  width: 320px;
+  height: 48px;
 }
 
 .prices {
@@ -105,8 +106,9 @@ body {
   box-shadow: rgb(0 0 0 / 4%) 0px 4px 16px 0px
 }
 
-.price-items :hover {
+.price-item:hover {
   transform :translate(0,-10px);
+  transition-duration: 400ms;
 }
 
 .price-item-title {
@@ -148,6 +150,10 @@ body {
   height: 3rem;
 }
 
+.트렌딩:focus-within {
+  border-bottom: 1px solid black;
+}
+
 .dropdown-button {
   height: 2rem;
   width: 6rem;
@@ -172,6 +178,11 @@ body {
   display: inline-block;
 }
 
+.dropdown .icon {
+  width: 10px;
+  height: 10px;
+}
+
 .dropdown-content {
   display: none;
   position: absolute;
@@ -188,9 +199,10 @@ body {
   background-color: #F8F9FA;
 }
 
-.dropdown:active .dropdown-content {
+.dropdown:focus-within .dropdown-content {
   display: block;
 }
+
 
 .dropdown-content .dropdown-list {
   font-weight: 600;
