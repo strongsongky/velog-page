@@ -150,11 +150,13 @@ body {
   height: 3rem;
 }
 
-.트렌딩:focus-within {
+.최신:focus-within {
   border-bottom: 1px solid black;
 }
 
-
+.트렌딩:focus-within {
+  border-bottom: 1px solid black;
+}
 
 .dropdown-button {
   height: 2rem;
@@ -205,7 +207,6 @@ body {
   display: block;
 }
 
-
 .dropdown-content .dropdown-list {
   font-weight: 600;
   font-size: 0.875rem;
@@ -215,8 +216,4 @@ body {
 
 .menu-button {
   align-items: center;
-}
-
-.트렌딩:hover {
-  text-decoration: underline;
 }
